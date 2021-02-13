@@ -1,0 +1,47 @@
+/* header start*/
+header{
+
+}
+.container {
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+}
+
+.logo {
+	margin-top: 3px;
+	float: left;
+	width: 18%;
+}
+.logo img{
+     width: 100%;
+}
+.menu {
+	float: right;
+	width: 70%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none; 
+    float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+    padding: 10px 11px;;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight:bold;
+    color: #355D69;
+}
+.manu ul li a:last-child{
+   padding-right: 0px;
+
+}
+.menu ul li a:hover{
+	 color: #BD233F;
+}
+
+/*header end*/
